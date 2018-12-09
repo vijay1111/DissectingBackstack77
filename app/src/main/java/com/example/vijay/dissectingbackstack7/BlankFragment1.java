@@ -26,4 +26,8 @@ public class BlankFragment1 extends Fragment {
         return inflater.inflate(R.layout.fragment_blank_fragment1, container, false);
     }
 
+    @Override
+    public String toString() {
+        return BlankFragment1.class.getSimpleName();
+    }
 }
